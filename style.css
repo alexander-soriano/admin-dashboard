@@ -47,9 +47,18 @@ body {
 .menu {
     display: grid;
     grid-template: repeat(6, 30px) / 30px 1fr;
-    justify-self: center;
+    /* justify-self: center; */
     align-items: center;
+    padding-left: 50px;
 }
+.settings {
+    display: grid;
+    grid-template: repeat(3, 30px) / 30px 1fr;
+    /* justify-self: center; */
+    align-items: center;
+    padding-left: 50px;
+}
+
 /* Header */
 .header {
     display: grid;
