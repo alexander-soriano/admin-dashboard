@@ -40,9 +40,16 @@ body {
 .brand  {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-self: center;
+    gap: 5px;
 }
 
+.menu {
+    display: grid;
+    grid-template: repeat(6, 30px) / 30px 1fr;
+    justify-self: center;
+    align-items: center;
+}
 /* Header */
 .header {
     display: grid;
