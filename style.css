@@ -121,5 +121,13 @@ input#search {
 
 .your-projects {
     grid-area: 1 / 1 / span 2 / span 1;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-auto-rows: 200px;
+    gap: 10px;
+
+    /* height: 50vmax; */
+    /* overflow: auto; */
 }
 
